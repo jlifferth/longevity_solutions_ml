@@ -11,9 +11,10 @@ import time
 import numpy as np
 import plotly.express as px
 
-dataframe_path = '/Users/jonathanlifferth/PycharmProjects/longevity/longevity_solutions_ml/glucose.csv'
+# dataframe_path = '/Users/jonathanlifferth/PycharmProjects/longevity/longevity_solutions_ml/glucose.csv'
 # dataframe = pd.read_csv('/Users/jonathanlifferth/PycharmProjects/longevity/longevity_solutions_ml/glucose.csv')
 
+dataframe_path = 'https://github.com/jlifferth/longevity_solutions_ml/blob/77ae701565a83679ccd31bf32a4e764b0fceeb88/glucose.csv'
 
 def clean_df(df_in):
     # combine date and time columns, set datetime as index
